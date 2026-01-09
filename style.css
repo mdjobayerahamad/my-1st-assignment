@@ -1,7 +1,8 @@
-*{
-    background-color: rgba(251, 251, 251, 1);}
+*
+
     body {
         font-family: "Inter", sans-serif;
+        background-color: rgba(251, 251, 251, 1);
     }
     
 /* navbar */
@@ -41,3 +42,123 @@
     color: rgba(255, 255, 255, 1);
 }
 /* bannar */
+.bannar{
+    width: 100%;
+  min-height: 674px;
+  background-image: url("./assets/hero-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #eee8e8;
+}
+
+.bannar-conteinar{
+    width: 1360px;
+    height: auto;
+}
+.bannar-conteinar h1{
+    font-size: 72px;
+    margin-top: 16px;
+}
+.bannar-conteinar p{
+    font-size: 18px;
+    margin-bottom: 32px;
+
+}
+.bannar-btn{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.first-button{
+    padding: 12px 16px;
+    background-color: #30B868;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+.secound-button{
+    padding: 12px 16px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.bannar-btn img {
+  width: 18px;
+  height: 18px;
+}
+/* cards */
+.cards{
+    padding: 80px 0;
+}
+.card-containar{
+    width: 1360px;
+    margin: 0 auto;
+}
+.card-header{
+    text-align: center;
+    margin-bottom: 48px;
+}
+.card-header h2 {
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+.card-header p{
+    font-size: 16px;
+    color: #555;
+}
+.all-carsd{
+    display: flex;
+    gap: 24px;
+}
+.main-card{
+    width: 25%;
+    padding: 32px 24px;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    text-align: center;
+    background-color: #ffffff;
+}
+.card-icon{
+    width: 56px;
+    height: 56px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background-color: #F95555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-icon img {
+    width: 24px;
+    height: 24px;
+}
+.card-icon h3{
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+.card-icon p{
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
+/* brain */
+.brain{
+    padding: 80px 0;
+    background-color: #f9fafb;
+}
+.brain-containar{
+    width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
