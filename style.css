@@ -1,0 +1,283 @@
+*
+
+    body {
+        font-family: "Inter", sans-serif;
+        background-color: rgba(251, 251, 251, 1);
+    }
+    
+/* navbar */
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 120px;
+}
+.logo-nav{
+    width: 139px;
+    height: 60px;
+}
+.menu-nav ul{
+    display: flex;
+    gap: 32px;;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: medium;
+    line-height: 152%;
+    letter-spacing: 0%;
+    color:var(--#000000, rgba(0, 0, 0, 1));
+}
+.menu-nav a{
+    text-decoration: none;
+    color: black;
+}
+.nav-btn button{
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    border: none;
+    background-color: #30B868;
+    color: rgba(255, 255, 255, 1);
+}
+/* bannar */
+.bannar{
+    width: 100%;
+  min-height: 674px;
+  background-image: url("./assets/hero-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #eee8e8;
+}
+
+.bannar-conteinar{
+    width: 1360px;
+    height: auto;
+}
+.bannar-conteinar h1{
+    font-size: 72px;
+    margin-top: 16px;
+}
+.bannar-conteinar p{
+    font-size: 18px;
+    margin-bottom: 32px;
+
+}
+.bannar-btn{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.first-button{
+    padding: 12px 16px;
+    background-color: #30B868;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+.secound-button{
+    padding: 12px 16px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.bannar-btn img {
+  width: 18px;
+  height: 18px;
+}
+/* cards */
+.cards{
+    padding: 80px 0;
+}
+.card-containar{
+    width: 1360px;
+    margin: 0 auto;
+}
+.card-header{
+    text-align: center;
+    margin-bottom: 48px;
+}
+.card-header h2 {
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+.card-header p{
+    font-size: 16px;
+    color: #555;
+}
+.all-carsd{
+    display: flex;
+    gap: 24px;
+}
+.main-card{
+    width: 25%;
+    padding: 32px 24px;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    text-align: center;
+    background-color: #ffffff;
+}
+.card-icon{
+    width: 56px;
+    height: 56px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background-color: #F95555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-icon img {
+    width: 24px;
+    height: 24px;
+}
+.card-icon h3{
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+.card-icon p{
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
+/* brain */
+.brain{
+    padding: 80px 0;
+    background-color: #f9fafb;
+}
+.brain-containar{
+    width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.brain-image{
+    width: 50%;
+}
+.brain-image img{
+    width: 100%;
+}
+.brain-content{
+    width: 50%;
+}
+.the-solution{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #30B868;
+    margin-bottom: 12px;
+}
+.brain-content h2{
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+.brain-content p{
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 24px;
+    line-height: 1.6;
+}
+.brain-list {
+    list-style: disc;
+    padding-left: 20px;
+}
+.brain-list li{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+/* challenge */
+.challenge{
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+.challenge-container{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.challenge-container h2{
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+.challenge-container .title{
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 24px;
+}
+.clchallenge-btn{
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 14px 22px;
+        background-color: #30B868;
+        color: #ffffff;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 24px;
+}
+.clchallenge-btn img{
+    width: 18px;
+    height: 18px;
+}
+.clchallenge-btn:hover{
+    opacity: 0.85;
+}
+.ch-note{
+    font-size: 14px;
+    color: #666;
+}
+/* footer */
+.footer {
+  background-color: #0f172a;
+  padding: 60px 0 40px;
+  color: #ffffff;
+}
+.footer-conteinar{
+    width: 1360px;
+    margin: 0 auto;
+}
+.footer-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-logo img{
+    width: 140px;
+}
+.footer-social-link{
+    display: flex;
+    gap: 16px;
+}
+.footer-social-link img{
+     width: 24px;
+    height: 24px;
+}
+.footer-social-link a:hover{
+    opacity: 0.7;
+}
+.footer-divider{
+    border: none;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 32px 0 20px;
+}
+.footer-copy{
+    font-size: 14px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+}
+
