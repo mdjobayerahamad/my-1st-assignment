@@ -98,6 +98,9 @@
     border: none;
     border-radius: 6px;
     cursor: pointer;
+    align-items: center;
+    display: flex;
+    gap: 8px;
 
 }
 .secound-button{
@@ -107,6 +110,10 @@
     border: 2px solid #FFFFFF;
     border-radius: 4px;
     cursor: pointer;
+    align-items: center;
+    display: flex;
+    gap: 8px;
+
 }
 .bannar-btn img {
   width: 18px;
