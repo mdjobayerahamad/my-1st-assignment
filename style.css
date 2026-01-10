@@ -1,6 +1,5 @@
-*
 
-    body {
+ body {
         font-family: "Inter", sans-serif;
         background-color: rgba(251, 251, 251, 1);
     }
@@ -40,26 +39,44 @@
     border: none;
     background-color: #30B868;
     color: rgba(255, 255, 255, 1);
+    cursor: pointer;
 }
 /* bannar */
 .bannar{
     width: 100%;
-  min-height: 674px;
-  background-image: url("./assets/hero-bg.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: #eee8e8;
+    min-height: 674px;
+    background-image: url("./assets/hero-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #eee8e8;
 }
 
 .bannar-conteinar{
     width: 1360px;
     height: auto;
 }
+.early-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  margin-bottom: 20px;
+  background-color: #FFFFFF;
+  color: #469165;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.early-badge img {
+  width: 16px;
+  height: 16px;
+}
+
 .bannar-conteinar h1{
     font-size: 72px;
     margin-top: 16px;
