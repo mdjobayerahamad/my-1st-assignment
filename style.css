@@ -283,13 +283,17 @@
   color: #FFFFFF;
 }
 .footer-conteinar{
-    width: 1360px;
+    
+    max-width: 1360px;
+    width: 100%;
     margin: 0 auto;
+    padding: 0 20px;
 }
 .footer-top{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 .footer-logo img{
     width: 140px;
@@ -297,6 +301,7 @@
 .footer-social-link{
     display: flex;
     gap: 16px;
+    
 }
 .footer-social-link img{
      width: 24px;
@@ -312,7 +317,8 @@
     margin: 32px 0 20px;
 }
 .social-link{
-    text-align: center;
+    
+    text-align: right;
 }
 .social-link h4{
     
